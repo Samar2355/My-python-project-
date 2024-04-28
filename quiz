@@ -1,0 +1,78 @@
+print("Welcome to my quiz")
+
+playing = input('Do you want to play? ')
+
+if playing != "yes".strip().lower():
+ print("Goodbye")
+ quit()
+elif playing == "yes".strip().lower():
+    print("Okay,Lets begin")
+
+
+
+first = (input("What does RAM stand for? "))
+if first == "random access memory".lower():
+    print("Correct")
+    print ("Good Job 🙂")
+else: print ("Incorrect")
+
+
+second = input("What is the capital of France? ")
+if second == "Paris".lower():
+    print("Correct")
+    print("Good Job 🙂")
+else: print ("Incorrect")
+
+
+third = input("What does ROM stand for? ")
+if third == "read only memory".lower():
+    print("Correct")
+    print ("Good Job 🙂")
+else: print ("Incorrect")
+
+fourth = input("What does FOV stand for? ")
+if fourth == "field of view".lower():
+    print("Correct")
+    print ("Good Job 🙂")
+else: print ("Incorrect")
+
+fifth = input("What does EMF stand for? ")
+if fifth == "electromotiv force".lower():
+    print("Correct")
+    print ("Good Job 🙂")
+else: print ("Incorrect")
+
+sixth = input("What is the capital of Italy? ")
+if sixth == "Rome".lower():
+    print("Correct")
+    print ("Good Job 🙂")
+else: print ("Incorrect")
+
+
+seventh = input("What is the capital of Spain? ")
+if seventh == "madrid".lower():
+    print("Correct")
+    print ("Good Job 🙂")
+else: print ("Incorrect")
+
+
+eight = input("What is the capital of Germany? ")
+if eight == "berlin".lower():
+    print("Correct")
+    print ("Good Job 🙂")
+else: print ("Incorrect")
+
+
+ninth = input("What is the capital of India? ")
+if ninth == "delhi".lower():
+    print("Correct")
+    print ("Good Job 🙂")
+else: print ("Incorrect")
+
+
+tenth = input("What is the fullform of NFC? ")
+if tenth == "near field communication".lower():
+    print("Correct")
+    print ("Good Job 🙂")
+else: print ("Incorrect")
+
